@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.title("Lead Validation Intelligence Platform")
 
-with st.expander("🚀 Project Strategy & Business Context", expanded=True):
+with st.expander(" Project Strategy & Business Context", expanded=True):
     st.header("Reducing Investment Uncertainty in B2B Soft-Landing")
     st.markdown(
         "This platform was designed to help partners mitigate financial risk and optimize B2B prospecting. "
@@ -18,7 +18,7 @@ with st.expander("🚀 Project Strategy & Business Context", expanded=True):
     
     colA, colB = st.columns(2)
     with colA:
-        st.subheader("📊 The Financial Edge")
+        st.subheader(" The Financial Edge")
         st.markdown(
             "The **3-Tier Model (Basic, Lite, Premium)** allows partners to scale services depending on their target budgets. "
             "It maps the financial return of each tier, helping partners thoroughly choose the right investment level based on projected ROI and Break-Even viability."
